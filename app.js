@@ -32,3 +32,9 @@ let alumno=["Ana","Carlos","Javier","Pablo","Felipe"]
 let notas=[6.7,4.5,5.5,6.6,7.0]
 
 //mostrar notas
+
+notas.forEach(buscar)
+function buscar(i){
+if (i>=6.8)
+    console.log("El alumno con mayor nota es",alumno[4],"con nota",notas[4])
+}
